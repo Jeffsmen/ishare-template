@@ -1,0 +1,46 @@
+ <html>
+ <head>
+ <title>sign up</title>
+ <link rel="stylesheet" href="style1.css">
+ <script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+ </head>
+ <body>
+ <form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+  <h1>iShare</h2>
+    <h2>Sign Up</h2>
+    <p>Please fill in this form to get connected.</p>
+
+    <label for="email"><b>Full name</b></label>
+    <input type="text" placeholder="Enter Full Name" name="email" required>
+
+    <label for="psw"><b>Address</b></label>
+    <input type="text" placeholder="address" name="psw" required>
+
+    <label for="psw-repeat">Phone number</b></label>
+    <input type="password" placeholder="Phone number" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>
