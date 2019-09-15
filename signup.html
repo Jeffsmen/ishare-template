@@ -15,32 +15,39 @@ window.onclick = function(event) {
 </script>
  </head>
  <body>
+   <div class="logo">
+    <h1>FarmConnect</h1>
+    <a href="index.html">Home</a>
+   </div>
+   <div class="form">
  <form action="action_page.php" style="border:1px solid #ccc">
   <div class="container">
-  <h1>iShare</h2>
-    <h2>Sign Up</h2>
     <p>Please fill in this form to get connected.</p>
 
     <label for="email"><b>Full name</b></label>
+    <br/>
     <input type="text" placeholder="Enter Full Name" name="email" required>
-
+    <br/>
     <label for="psw"><b>Address</b></label>
-    <input type="text" placeholder="address" name="psw" required>
-
+    <br/>
+    <input type="text" placeholder="Home Address" name="psw" required>
+    <br/>
     <label for="psw-repeat">Phone number</b></label>
+    <br/>
     <input type="password" placeholder="Phone number" name="psw-repeat" required>
-
+    <br/>
     <label>
-      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      <input type="checkbox" checked="" name="remember" style="margin-bottom:15px"> Remember me
     </label>
 
     <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
     <div class="clearfix">
+      <button type="submit" class="signupbtn">Sign up</button>
       <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
     </div>
   </div>
 </form>
+</div>
 </body>
 </html>
