@@ -1,3 +1,14 @@
+body{
+  background:url(Africa.jpg);
+}
+
+.logo{
+  background-color: white;
+  width:100%;
+  height: 20%;
+  margin-top: -30px;
+  opacity: 0.7;
+}
 * {box-sizing: border-box}
 /* Full-width input fields */
   input[type=text], input[type=password] {
@@ -5,8 +16,8 @@
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
-  border: none;
-  background: #f1f1f1;
+  border: 2px solid;
+  border-radius: 4px;
 }
 
 /* Add a background color when the inputs get focus */
@@ -17,13 +28,13 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Set a style for all buttons */
 button {
-  background-color: #4CAF50;
-  color: white;
+  background-color: brown
+    color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 40%;
   opacity: 0.9;
 }
 
@@ -40,14 +51,15 @@ button:hover {
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
 /* Add padding to container elements */
 .container {
   padding: 16px;
-  background:url(Africa.jpg);
-  opacity:0.9;
+  border: 40px;
+  float: right;
+  background-color: #4CAF50;
 }
 
 /* The Modal (background) */
@@ -75,7 +87,7 @@ button:hover {
 h1{
 	color:rgb(9, 158, 9);
 	font-size: 50px;
-	margin-top: -30px;
+	margin-top: 30px;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	opacity: 0.9;
 }
@@ -115,6 +127,22 @@ label{
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
-    width: 100%;
+    width: 40%;
   }
+}
+
+.form{
+  margin-top: 5px;
+}
+
+form{
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  color: #4CAF50;
 }
